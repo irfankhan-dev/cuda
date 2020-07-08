@@ -25,6 +25,10 @@
             text-decoration: none;
         }
         
+        .img {
+            max-width: 100%;
+        }
+        
         .section-padding {
             padding: 120px 0;
         }
@@ -160,11 +164,25 @@
             margin-bottom: 25px;
         }
         
-        .content img,
-        .content i {
+        .content>img,
+        .content>i {
             margin-bottom: 60px;
         }
         
-        .content i {
+        .content>i {
             font-size: 130px;
+        }
+        
+        .content>img {
+            max-height: 130px;
+        }
+        
+        .circle {
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        
+        .content .circle {
+            height: 200px;
+            width: 200px;
         }
